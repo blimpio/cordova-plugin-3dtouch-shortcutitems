@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-3dtouch-shortcutitems",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helper plugin for 3D Touch Shortcut Items in iOS 9 and above",
   "cordova": {
     "id": "cordova-plugin-3dtouch-shortcutitems",

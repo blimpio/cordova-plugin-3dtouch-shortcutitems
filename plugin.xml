@@ -6,13 +6,19 @@
     <description>Helper plugin for 3D Touch Shortcut Items in iOS 9 and above</description>
     <license>MIT</license>
     <keywords>cordova,3dtouch,shortcut,shortcutitem</keywords>
+    <js-module src="www/index.js" name="index">
+        <clobbers target="window.shortcutItem" />
+    </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="cordova-plugin-3dtouch-shortcutitems">
-                <param name="ios-package" value="cordova-plugin-3dtouch-shortcutitems"/>
+            <feature name="BLShortcutItem">
+                <param name="ios-package" value="BLShortcutItem"/>
             </feature>
         </config-file>
         <header-file src="src/ios/AppDelegate+Notification.h" />
         <source-file src="src/ios/AppDelegate+Notification.m" />
+
+        <header-file src="src/ios/BLShortcutItem.h" />
+        <source-file src="src/ios/BLShortcutItem.m" />
     </platform>
 </plugin>

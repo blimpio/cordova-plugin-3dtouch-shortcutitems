@@ -11,6 +11,8 @@ by [Giovanni Collazo](http://twitter.com/gcollazo)
 ## Xcode Project Setup
 For custom shortcut icon create an Asset cataglog and add your images. In this example the custom image used is called `my-shortcut-icon`. Set the text for the shortcut, in this example we are using `Shortcut Title`. Finnaly set the type of the shortcut, we are using `com.example.quicklink.action`.
 
+### Project.plist
+
 ```xml
 <key>UIApplicationShortcutItems</key>
 <array>
@@ -27,11 +29,16 @@ For custom shortcut icon create an Asset cataglog and add your images. In this e
 
 [UIApplicationShortcutItems Reference](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW36)
 
-
 ## JavaScript Interface
 
 ```js
+// Register callback
 window.onShortcutEvent = function(event) {
   alert(event.data);
 };
+
+// Initialize properly
+document.addEventListener('deviceready', function() {
+  window.shortcutItem.initialize();
+}, false);
 ```

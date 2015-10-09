@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-3dtouch-shortcutitems",
+  "version": "1.0.1",
+  "description": "Helper plugin for 3D Touch Shortcut Items in iOS 9 and above",
+  "cordova": {
+    "id": "cordova-plugin-3dtouch-shortcutitems",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GetBlimp/cordova-plugin-3dtouch-shortcutitems"
+  },
+  "keywords": [
+    "cordova",
+    "3dtouch",
+    "UIApplicationShortcutItem",
+    "shortcut",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Giovanni Collazo",
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="io.blimp.cordova.3dtouch-shortcutitems" version="0.0.1">
+    <name>cordova-plugin-3dtouch-shortcutitems</name>
+    <description>Helper plugin for 3D Touch Shortcut Items in iOS 9 and above</description>
+    <license>MIT</license>
+    <keywords>cordova,3dtouch,shortcut,shortcutitem</keywords>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="cordova-plugin-3dtouch-shortcutitems">
+                <param name="ios-package" value="cordova-plugin-3dtouch-shortcutitems"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/AppDelegate+Notification.h" />
+        <source-file src="src/ios/AppDelegate+Notification.m" />
+    </platform>
+</plugin>

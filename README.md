@@ -16,7 +16,7 @@ $ cordova plugin add cordova-plugin-3dtouch-shortcutitems
 
 
 ## Xcode Project Setup
-For custom shortcut icon create an Asset cataglog and add your images. In this example the custom image used is called `my-shortcut-icon`. Set the text for the shortcut, in this example we are using `Shortcut Title`. Finnaly set the type of the shortcut, we are using `com.example.quicklink.action`.
+For custom shortcut icon create an Asset catalog and add your images. In this example the custom image used is called `my-shortcut-icon`. Set the text for the shortcut, in this example we are using `Shortcut Title`. Finally set the type of the shortcut, we are using `com.example.quicklink.action`.
 
 ### Project.plist
 

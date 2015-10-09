@@ -15,8 +15,8 @@
                 <param name="ios-package" value="BLShortcutItem"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/AppDelegate+Notification.h" />
-        <source-file src="src/ios/AppDelegate+Notification.m" />
+        <header-file src="src/ios/AppDelegate+BLShorcutItem.h" />
+        <source-file src="src/ios/AppDelegate+BLShorcutItem.m" />
 
         <header-file src="src/ios/BLShortcutItem.h" />
         <source-file src="src/ios/BLShortcutItem.m" />
